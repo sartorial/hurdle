@@ -1,0 +1,148 @@
+body {
+  background-color: black ;
+}
+
+.appbar {
+  /* Allows for modal to be brought to front of appbar */
+  z-index: 1 !important;
+}
+
+.buttons {
+  margin-left: auto !important;
+}
+
+.logo { 
+  margin: auto;
+  justify-content: center;
+}
+
+.letter-tile {
+  display: inline-block;
+  border: 2px solid ;
+  margin: 3px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  transform: translate(0%, 60%);
+}
+
+.correct {
+  background-color: #538d4f !important;
+  border: solid #538d4f;
+  color: white;
+}
+
+.present {
+  background-color: #b59f3b !important;
+  border: solid #b59f3b;
+  color: white;
+}
+
+.absent {
+  background-color: #3a3a3c !important;
+  border: solid #3a3a3c;
+  color: white;
+}
+
+.empty {
+  background-color: black;
+  border: solid black;
+  color:white
+}
+
+.example {
+  padding-left: 12px;
+  transform: translate(0%, -50%);
+}
+
+.home-button {
+  color: white
+}
+
+.guess {
+  display: flex;
+}
+
+.letter-container {
+  max-width: max-content;
+  margin: 2rem auto;
+}
+
+.dictionary-entry {
+  text-align: center;
+  transform: translate(0%, 50%);
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+.length-container {
+  text-align: center;
+  transform: translate(0%, 200%);
+}
+
+.length-buttons {
+  padding: 5px;
+}
+
+.favorite-container {
+  display: flex;
+  justify-content: center;
+}
+
+.key-item {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: whitesmoke;
+  font: bold;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  transform: translate(0%, 15%);
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 8px;
+  box-shadow: 5px 5px grey;
+}
+  
+.key-list {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+}
+
+.favorite-item {
+  padding-bottom: 20px;
+  transform: translate(0%, 0%);
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
